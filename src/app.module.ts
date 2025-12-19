@@ -14,6 +14,8 @@ import { PartsModule } from './modules/parts/parts.module';
 
 import { DevicesModule } from './modules/devices/devices.module';
 
+import { InterventionsModule } from './modules/interventions/interventions.module';
+
 
 
 @Module({
@@ -22,6 +24,8 @@ import { DevicesModule } from './modules/devices/devices.module';
     AuthModule,
     PartsModule,
      DevicesModule,
+       InterventionsModule,
+      
   ],
   providers: [
     {
